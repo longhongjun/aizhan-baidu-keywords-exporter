@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "爱站百度关键词导出工具(pandaidea.com)",
+  "description": "爱站百度关键词导出工具",
+  "version": "1.0",
+  "permissions": [
+    "http://*.aizhan.com/baidu/*"
+  ],
+  "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "48": "icon.png"
+   },
+  "content_scripts": [{
+      "matches": ["http://*.aizhan.com/baidu/*"],
+       "css": ["css/index.css"],
+       "js": ["js/jquery-2.1.0.min.js","js/base64.js", "js/async.js", "js/content-script.js"]
+  }]
+}
