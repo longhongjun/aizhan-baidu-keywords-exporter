@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "爱站百度关键词导出工具(pandaidea.com)",
   "description": "爱站百度关键词导出工具",
-  "version": "1.0",
+  "version": "1.0.1",
   "permissions": [
     "http://*.aizhan.com/baidu/*"
   ],
